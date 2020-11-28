@@ -54,13 +54,15 @@
 
 .contato{
     display: flex;
-    align-items: center;
+    justify-content: center;
     flex-direction: row;
-    justify-content: space-evenly;
+    margin: 20px;
 }
 
-.coluna{
-    display: flex;
-    flex-direction: column;
+.contato div{
+    margin: 20px;
+}
 
+.contato label{
+    padding-left: 9px;
 }
